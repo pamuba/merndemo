@@ -25,9 +25,9 @@ connection.once('open', () => {
 const exercisesRouter = require('./routes/exercises');
 const usersRouter = require('./routes/users');
 
-// //http://localhost:300/exercises
+// //http://localhost:3000/exercises
 app.use('/exercises', exercisesRouter);
-// //http://localhost:300/users
+// //http://localhost:3000/users
 app.use('/users', usersRouter);
 
 
