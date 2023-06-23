@@ -2,8 +2,21 @@ POST http://localhost:3000/users/add
 content-type: application/json
 
 {
-   "username":"Jill"
+   "username":"John"
 }
 
 ####
 GET http://localhost:3000/users/
+
+####
+POST http://localhost:3000/exercises/add
+content-type: application/json
+
+{
+   "username":"John",
+   "description":"RUnning",
+   "duration":120,
+   "date":"2023-06-21T14:52:25.016Z"
+}
+####
+GET http://localhost:3000/exercises
